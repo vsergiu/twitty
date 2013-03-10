@@ -1,0 +1,14 @@
+{
+    "name" : "Twitty",
+    "description" : "Command line Twitter client",
+    "version" : "0.0.1",
+    "private" : true,
+    "dependencies" : {
+        "commander" : "latest",
+        "oauth" : "latest",
+        "ntwitter" : "latest"
+    },
+    "bin" : {
+        "twitty" : "index.js"
+    }
+}
